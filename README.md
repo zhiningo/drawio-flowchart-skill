@@ -1,6 +1,6 @@
 # drawio-flowchart
 
-一个 [AgentSkill](https://agentskills.io)，教 AI Agent 生成**高质量的 draw.io 流程图**——布局整齐、层次分明、风格统一。
+一个 [AgentSkill](https://agentskills.io)，生成**高质量的 draw.io 流程图**——布局整齐、层次分明、风格统一。
 
 > 🧩 兼容 [OpenClaw](https://github.com/openclaw/openclaw)、[Claude](https://claude.ai) 及所有 AgentSkills 兼容平台。
 
@@ -10,14 +10,12 @@
 - ❌ 节点散落，没有分组容器
 - ❌ 文字左对齐，字号大小不分层
 - ❌ 箭头细灰，主次流程不区分
-- ❌ 画布过宽导致自动缩放，文字看不清
 - ❌ 回退箭头斜穿画面
 
 有了这个 Skill：
 - ✅ Swimlane 容器按阶段分组
 - ✅ 文字居中，三级字号层次（16/13/12px）
 - ✅ 阶段配色 + 粗蓝主流程箭头
-- ✅ 画布 ≤ 800px，不缩放，字体清晰可读
 - ✅ 正交箭头走线，回退箭头走左侧边距
 
 | Before（无 Skill） | After（有 Skill） |
